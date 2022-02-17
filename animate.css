@@ -1,0 +1,91 @@
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #00aaff;
+    }
+    to {
+      text-shadow: 0 0 30px #00aaff, 0 0 10px #00aaff;
+    }
+  }
+
+
+
+
+  @keyframes itemspawn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
+
+  @keyframes Loading {
+  10% {
+    content: "Connecting";
+  }
+  30% {
+    content: "Connecting .";
+  }
+  50% {
+    content: "Connecting ..";
+  }
+  70% {
+    content: "Connecting ...";
+  }
+  100% {
+    content: "Connecting ....";
+  }
+}
+
+
+
+@keyframes fadeInOut {
+  from {
+    transition: 2s;
+    opacity: 0.1;
+  }
+  to {
+    transition: 2s;
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes Shake {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
+
+
+
+@keyframes textanim {
+    from {
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+
+
+
+@keyframes cardspawn {
+    from {
+      transform: translateY(300px);
+      opacity: 0;
+    }
+    to{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
